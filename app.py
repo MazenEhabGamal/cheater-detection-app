@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load(r'h:\AI\cheater detection app\model\cheater_detector.pkl')
-scaler = joblib.load(r'h:\AI\cheater detection app\model\scaler.pkl')
+model = joblib.load(r'h:\AI\cheater-detection-app\model\cheater_detector.pkl')
+scaler = joblib.load(r'h:\AI\cheater-detection-app\model\scaler.pkl')
 
 # App title
 st.title('🎯 Cheater Detection in Shooting Games')
@@ -41,4 +41,4 @@ if st.button('Detect Cheater'):
 
 # Footer
 st.markdown("---")
-st.caption("Developed by [Your Name] | AI-Powered Cheater Detection")
+st.caption("Developed by Mazen Ehab | AI-Powered Cheater Detection")
